@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BatmanFoodOrder</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">FRESHLY</string>
+    <string name="slide_1_desc">Discover new dishes every days &amp; and hold your favourite restuarant </string>
+
+    <string name="slide_2_title">SCHEDULE</string>
+    <string name="slide_2_desc">We know that,you are a food lover,Strainhten your meal schedule</string>
+
+    <string name="slide_3_title">TRACKING</string>
+    <string name="slide_3_desc">As soon as you hear the sound of the door you food has come</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
