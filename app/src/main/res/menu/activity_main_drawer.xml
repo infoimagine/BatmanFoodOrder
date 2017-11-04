@@ -6,43 +6,43 @@
     <group android:checkableBehavior="single">
         <item
 
-            android:id="@+id/nav_camera"
+            android:id="@+id/home"
             android:icon="@drawable/dpassword"
             android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/profile"
             android:icon="@drawable/dpassword"
             android:title="Profile" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/wallet"
             android:icon="@drawable/dpassword"
             android:title="Wallet" />
         <item
-            android:id="@+id/nav_manage1"
+            android:id="@+id/order_history"
             android:icon="@drawable/dpassword"
             android:title="Orders" />
         <item
-            android:id="@+id/nav_manage2"
+            android:id="@+id/about"
             android:icon="@drawable/dpassword"
             android:title="About" />
         <item
-            android:id="@+id/nav_manage3"
+            android:id="@+id/myaddress"
             android:icon="@drawable/dpassword"
             android:title="My Address" />
         <item
-            android:id="@+id/nav_manage4"
+            android:id="@+id/cart"
             android:icon="@drawable/dpassword"
             android:title="Cart" />
         <item
-            android:id="@+id/nav_manage5"
+            android:id="@+id/review"
             android:icon="@drawable/dpassword"
             android:title="Review" />
         <item
-            android:id="@+id/nav_manage6"
+            android:id="@+id/invite"
             android:icon="@drawable/dpassword"
             android:title="Invite" />
         <item
-            android:id="@+id/nav_manage7"
+            android:id="@+id/logout"
             android:icon="@drawable/dpassword"
             android:title="Logout" />
     </group>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zingbyte.batmanfoodorder.activity.CardDetailActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/card_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Add Card Details !"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:background="@color/line_color"
+                android:layout_height="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="please enter your card detail to quick access"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/add_card"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border_btn"
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:text="ADD CARD"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

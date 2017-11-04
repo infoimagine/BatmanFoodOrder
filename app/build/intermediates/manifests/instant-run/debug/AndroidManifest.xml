@@ -6,7 +6,11 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -40,10 +44,30 @@
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.SignInActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.zingbyte.batmanfoodorder.activity.CardEditActivity"
+            android:label="Card Detail Edit"
+            android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zingbyte.batmanfoodorder.activity.CardDetailActivity"
+            android:label="Card Detail"
+            android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.zingbyte.batmanfoodorder.activity.OrderHistory"
+            android:label="Order History"
+            android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.zingbyte.batmanfoodorder.activity.SingleProductDetail"
+            android:label="Single Food Detail"
+            android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity" />
+        <activity
+            android:name="com.zingbyte.batmanfoodorder.activity.AddressDetail"
+            android:label="Add Address Detail"
+            android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity" />
 
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
         <meta-data
             android:name="android.arch.lifecycle.VERSION"
             android:value="27.0.0-SNAPSHOT" />
