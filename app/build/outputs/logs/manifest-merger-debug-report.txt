@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-64:12
+ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-70:12
 MERGED from [com.github.sharish:CreditCardView:v1.0.4] C:\Users\vishe\.gradle\caches\transforms-1\files-1.1\CreditCardView-v1.0.4.aar\ae995fab91abf1965581bb67c1820092\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\vishe\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\4959c231448b88d65e3497ec5598bdec\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\vishe\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\f3f7ed2c37bee8b1f67590577d474b86\AndroidManifest.xml:2:1-11:12
@@ -25,20 +25,20 @@ MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\vishe\.gr
 MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\vishe\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\4372d750e5a5a4892895e9e90bfb1fcd\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.0] C:\Users\vishe\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\2f0fabec1bceafe6b15427cb9e72fc7c\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\vishe\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\397eff36048a09c011470eb5eea96683\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-70:12
 	package
 		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-64:12
+		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-70:12
 		INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-64:12
+		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:1-70:12
 		INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:2:11-69
@@ -53,7 +53,7 @@ MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\vishe\.gradle\caches\tr
 	android:name
 		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:8:5-62:19
+ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:8:5-68:19
 MERGED from [com.github.sharish:CreditCardView:v1.0.4] C:\Users\vishe\.gradle\caches\transforms-1\files-1.1\CreditCardView-v1.0.4.aar\ae995fab91abf1965581bb67c1820092\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.sharish:CreditCardView:v1.0.4] C:\Users\vishe\.gradle\caches\transforms-1\files-1.1\CreditCardView-v1.0.4.aar\ae995fab91abf1965581bb67c1820092\AndroidManifest.xml:11:5-15:19
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\vishe\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\f3f7ed2c37bee8b1f67590577d474b86\AndroidManifest.xml:9:5-20
@@ -159,13 +159,29 @@ ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\And
 	android:name
 		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:54:13-57
 activity#com.zingbyte.batmanfoodorder.activity.AddressDetail
-ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:58:9-61:15
+ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:57:9-60:67
 	android:parentActivityName
 		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:60:13-64
 	android:label
 		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:59:13-47
 	android:name
-		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:58:19-57
+		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:58:13-51
+activity#com.zingbyte.batmanfoodorder.activity.ProfileDetail
+ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:61:9-64:67
+	android:parentActivityName
+		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:64:13-64
+	android:label
+		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:63:13-43
+	android:name
+		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:62:13-51
+activity#com.zingbyte.batmanfoodorder.activity.About
+ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:65:9-67:66
+	android:parentActivityName
+		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:67:13-64
+	android:label
+		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml:65:19-49
 uses-sdk
 INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\src\main\AndroidManifest.xml

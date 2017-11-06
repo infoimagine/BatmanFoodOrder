@@ -67,6 +67,14 @@
             android:name="com.zingbyte.batmanfoodorder.activity.AddressDetail"
             android:label="Add Address Detail"
             android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity" />
+        <activity
+            android:name="com.zingbyte.batmanfoodorder.activity.ProfileDetail"
+            android:label="Profile Detail"
+            android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity" />
+        <activity
+            android:name="com.zingbyte.batmanfoodorder.activity.About"
+            android:label="About Us"
+            android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity" />
 
         <meta-data
             android:name="android.arch.lifecycle.VERSION"

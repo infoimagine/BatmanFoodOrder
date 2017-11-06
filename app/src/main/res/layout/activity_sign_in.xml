@@ -8,6 +8,9 @@
     tools:context="com.zingbyte.batmanfoodorder.activity.SignInActivity">
 
     <ScrollView
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        android:isScrollContainer="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -95,15 +98,16 @@
             </android.support.design.widget.TextInputLayout>
 
 
-            <Button android:id="@+id/btn_signup"
+            <Button
+                android:id="@+id/btn_signup"
                 android:layout_width="150dp"
-                android:layout_height="25dp"
+                android:layout_height="30dp"
                 android:text="Sign In"
                 android:padding="5dp"
                 android:onClick="signI"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="12dp"
                 android:background="@drawable/border_btn"
                 android:layout_marginTop="40dp"
                 android:textColor="#26b474"/>
@@ -114,7 +118,7 @@
             <TextView
                 android:layout_marginBottom="20dp"
                 android:layout_width="match_parent"
-                android:text="Not have an Account Yet? Sign up"
+                android:text="@string/sign_up"
                 android:textSize="15sp"
                 android:layout_gravity="center"
                 android:gravity="center"

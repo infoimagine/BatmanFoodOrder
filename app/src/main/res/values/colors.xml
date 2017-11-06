@@ -39,9 +39,12 @@
     <color name="text_color_big">#808080</color>
     <color name="text_color_small">#808080</color>
     <color name="line_color">#0d5c42</color>
-    <color name="colorTabTitle">#ffffff</color>
-    <color name="colorTabSelectedText">#fefeff</color>
+    <color name="colorTabTitle">#e4e4e4</color>
+    <color name="colorTabSelectedText">#457867</color>
     <color name="tab_color">#e6e6e6</color>
     <color name="tab_color_text">#c4c4c4</color>
+
+
+
 
 </resources>

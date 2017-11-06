@@ -111,11 +111,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         if (id == R.id.home)
         {
-            // Handle the camera action
+            Intent i = new Intent(MainActivity.this, MainActivity.class);
+            startActivity(i);
         }
         else if (id == R.id.profile)
         {
 
+            Intent i = new Intent(MainActivity.this, ProfileDetail.class);
+            startActivity(i);
         }
         else if (id == R.id.wallet)
         {
@@ -132,7 +135,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Intent i = new Intent(MainActivity.this, SingleProductDetail.class);
             startActivity(i);
 
-
         }
         else if (id == R.id.myaddress)
         {
@@ -143,6 +145,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         else if (id == R.id.cart)
         {
 
+
         }
         else if (id == R.id.review)
         {
@@ -150,6 +153,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         else if (id == R.id.invite)
         {
+
 
         }
         else if (id == R.id.logout)
@@ -212,4 +216,3 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 }
-   

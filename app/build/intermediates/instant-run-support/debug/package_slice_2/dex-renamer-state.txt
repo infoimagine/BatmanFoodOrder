@@ -1,4 +1,4 @@
-#Sat Nov 04 18:45:30 IST 2017
-base.0=C\:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+#Mon Nov 06 18:46:08 IST 2017
+base.0=C\:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\41
 renamed.0=classes.dex
-file.0=C\:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3\\classes.dex
+file.0=C\:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\41\\classes.dex

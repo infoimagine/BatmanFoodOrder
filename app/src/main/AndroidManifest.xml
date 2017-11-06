@@ -54,11 +54,17 @@
             android:name=".activity.SingleProductDetail"
             android:label="Single Food Detail"
             android:parentActivityName=".activity.MainActivity" />
-
-        <activity android:name=".activity.AddressDetail"
+        <activity
+            android:name=".activity.AddressDetail"
             android:label="Add Address Detail"
-            android:parentActivityName=".activity.MainActivity"
-            />
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.ProfileDetail"
+            android:label="Profile Detail"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity android:name=".activity.About"
+            android:label="About Us"
+            android:parentActivityName=".activity.MainActivity"/>
     </application>
 
 </manifest>

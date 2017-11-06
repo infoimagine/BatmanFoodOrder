@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:background="@drawable/bg"
     android:layout_height="match_parent">
-
     <TextView
         android:gravity="center"
         android:layout_centerInParent="true"
