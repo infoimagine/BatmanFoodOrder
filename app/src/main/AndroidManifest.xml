@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.zingbyte.batmanfoodorder">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,25 +18,47 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".activity.MainActivity"
             android:label="Categories"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".activity.WelcomeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SignupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SignInActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.CardEditActivity"
+            android:label="Card Detail Edit"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CardDetailActivity"
+            android:label="Card Detail"
+            android:parentActivityName=".activity.MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.OrderHistory"
+            android:label="Order History"
+            android:parentActivityName=".activity.MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.SingleProductDetail"
+            android:label="Single Food Detail"
+            android:parentActivityName=".activity.MainActivity" />
 
-        <activity android:name=".activity.SignupActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
-
-        <activity android:name=".activity.SignInActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".activity.AddressDetail"
+            android:label="Add Address Detail"
+            android:parentActivityName=".activity.MainActivity"
+            />
     </application>
 
 </manifest>

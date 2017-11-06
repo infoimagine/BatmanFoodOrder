@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e6f2ad45e449e972ef144cfd57d6f34c\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -12,6 +12,25 @@
                         "endLines": "2,3,4,5,18,31,32,33,34,35,36",
                         "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
                         "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.0.0.aar\\0cdca24623070cc83629872bdfd25003\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "2646",
+                        "endLines": "39",
+                        "endColumns": "12",
+                        "endOffsets": "2791"
                     }
                 }
             ]

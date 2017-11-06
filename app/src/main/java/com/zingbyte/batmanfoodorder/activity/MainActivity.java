@@ -1,5 +1,6 @@
 package com.zingbyte.batmanfoodorder.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -19,7 +20,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.zingbyte.batmanfoodorder.R;
-import com.zingbyte.batmanfoodorder.adapter.ViewPagerAdapter;
 import com.zingbyte.batmanfoodorder.fragment.FourFragment;
 import com.zingbyte.batmanfoodorder.fragment.OneFragment;
 import com.zingbyte.batmanfoodorder.fragment.ThreeFragment;
@@ -38,14 +38,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+     /*   FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
 
 
 
@@ -109,17 +109,51 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.home)
+        {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        }
+        else if (id == R.id.profile)
+        {
 
-        } else if (id == R.id.nav_slideshow) {
+        }
+        else if (id == R.id.wallet)
+        {
+            Intent i = new Intent(MainActivity.this, CardDetailActivity.class);
+            startActivity(i);
+        }
+        else if (id == R.id.order_history)
+        {
+            Intent i = new Intent(MainActivity.this, OrderHistory.class);
+            startActivity(i);
+        }
+        else if (id == R.id.about)
+        {
+            Intent i = new Intent(MainActivity.this, SingleProductDetail.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_manage1) {
 
-        } else if (id == R.id.nav_share) {
+        }
+        else if (id == R.id.myaddress)
+        {
 
-        } else if (id == R.id.nav_send) {
+            Intent i = new Intent(MainActivity.this, AddressDetail.class);
+            startActivity(i);
+        }
+        else if (id == R.id.cart)
+        {
+
+        }
+        else if (id == R.id.review)
+        {
+
+        }
+        else if (id == R.id.invite)
+        {
+
+        }
+        else if (id == R.id.logout)
+        {
 
         }
 
@@ -178,3 +212,4 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 }
+   
