@@ -437,6 +437,10 @@
             <enum name="italic" value="1"/>
         </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
+    <declare-styleable name="GeometricProgressView"><attr format="enum" name="gp_type">
+            <enum name="kite" value="0"/>
+            <enum name="triangle" value="1"/>
+        </attr><attr format="integer" name="gp_number_of_angles"/><attr format="color" name="gp_color"/><attr format="integer" name="gp_duration"/><attr format="dimension" name="gp_figure_padding"/><attr format="reference" name="gp_style"/></declare-styleable>
     <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers">
             <flag name="none" value="0"/>
@@ -852,6 +856,7 @@
     <string name="previous">PREVIOUS</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="toast_message">Toast message</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="AndroidImageSlider_Attractive_Rect_Blue">

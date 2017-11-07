@@ -1,5 +1,6 @@
 package com.zingbyte.batmanfoodorder.activity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -265,7 +266,7 @@ public class CardEditActivity extends AppCompatActivity {
         // Checks whether a hardware keyboard is available
         if (newConfig.hardKeyboardHidden == Configuration.HARDKEYBOARDHIDDEN_NO) {
 
-            LinearLayout parent = (LinearLayout) findViewById(com.cooltechworks.creditcarddesign.R.id.parent);
+            @SuppressLint("WrongViewCast") LinearLayout parent = (LinearLayout) findViewById(com.cooltechworks.creditcarddesign.R.id.parent);
             RelativeLayout.LayoutParams layoutParams = (RelativeLayout.LayoutParams) parent.getLayoutParams();
             layoutParams.addRule(RelativeLayout.CENTER_IN_PARENT, 0);
             parent.setLayoutParams(layoutParams);

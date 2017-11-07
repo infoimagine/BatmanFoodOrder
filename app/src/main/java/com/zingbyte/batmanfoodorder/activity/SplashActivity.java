@@ -23,7 +23,7 @@ public class SplashActivity extends Activity {
                 //onLoadingDataEnded();
                 Intent i = new Intent(SplashActivity.this, WelcomeActivity.class);
                 startActivity(i);
-              //  overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_left);
+              //  overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
 
             }
@@ -40,7 +40,7 @@ public class SplashActivity extends Activity {
         {
             Intent i = new Intent(SplashActivity.this, WelcomeActivity.class);
             startActivity(i);
-            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_left);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             finish();
         }
 

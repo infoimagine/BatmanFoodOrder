@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <net.bohush.geometricprogressview.GeometricProgressView
+        android:id="@+id/progressView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:gp_color="@color/colorPrimary"
+        app:gp_duration="1500"
+        app:gp_figure_padding="2dp"
+        app:gp_number_of_angles="7"
+        app:gp_type="kite" />
+
+</LinearLayout>

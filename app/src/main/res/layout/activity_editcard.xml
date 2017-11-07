@@ -11,12 +11,11 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/parent"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_above="@+id/button_container">
 
             <LinearLayout
@@ -41,9 +40,13 @@
                 </com.cooltechworks.creditcarddesign.views.HeightWrappingViewPager>
 
             </LinearLayout>
+
+
         </ScrollView>
 
         <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:id="@+id/button_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,11 +55,13 @@
             android:orientation="horizontal">
 
             <TextView
+                android:layout_marginRight="5dp"
                 android:id="@+id/previous"
+                android:layout_marginBottom="7dp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/green_continue"
+                android:background="@color/colorPrimary"
                 android:gravity="center"
                 android:padding="@dimen/padding_normal"
                 android:text="@string/previous"
@@ -64,23 +69,22 @@
                 android:textSize="@dimen/text_size_small"/>
 
             <TextView
+                android:layout_marginLeft="5dp"
                 android:id="@+id/next"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/green_continue"
+                android:background="@color/colorPrimary"
                 android:gravity="center"
                 android:padding="@dimen/padding_normal"
                 android:text="@string/next"
+                android:layout_marginBottom="7dp"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/text_size_small"/>
         </LinearLayout>
 
 
     </RelativeLayout>
-
-
-
 
 
 </android.support.constraint.ConstraintLayout>

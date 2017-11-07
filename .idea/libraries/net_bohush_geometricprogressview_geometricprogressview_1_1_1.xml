@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="net.bohush.geometricprogressview:geometricprogressview-1.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geometricprogressview-1.1.1.aar/0d8272381f9c9e4793d67dfb04d6bb51/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geometricprogressview-1.1.1.aar/0d8272381f9c9e4793d67dfb04d6bb51/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bohush.geometricprogressview/geometricprogressview/1.1.1/9e707065a4bff32503651571ce5cf1666769bd50/geometricprogressview-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
