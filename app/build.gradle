@@ -37,6 +37,7 @@ dependencies {
     compile 'com.flaviofaria:kenburnsview:1.0.7'
     compile 'com.github.GrenderG:Toasty:1.2.5'
     compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.github.sujithkanna:smileyrating:1.6.8'
     compile 'net.bohush.geometricprogressview:geometricprogressview:1.1.1'
     compile 'com.daimajia.slider:library:1.1.5@aar'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'

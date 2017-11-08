@@ -1,9 +1,16 @@
 package com.zingbyte.batmanfoodorder.activity;
 
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.daimajia.slider.library.SliderLayout;
@@ -14,11 +21,18 @@ import com.zingbyte.batmanfoodorder.R;
 
 import java.util.HashMap;
 
+import static java.security.AccessController.getContext;
+
 public class SingleProductDetail extends AppCompatActivity implements BaseSliderView.OnSliderClickListener, ViewPagerEx.OnPageChangeListener{
 
+    TextView textCartItemCount,quantitytxt;
+    int mCartItemCount = 10;
     SliderLayout sliderLayout;
     HashMap<String,String> Hash_file_maps ;
-    ImageView fav_img;
+    ImageView fav_img,addcart_img,removecart_img;
+    int quantityvalue = 0;
+    int flag_fav = 0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +40,11 @@ public class SingleProductDetail extends AppCompatActivity implements BaseSlider
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_single_product_detail);
+
+
+        addcart_img = (ImageView)findViewById(R.id.addcart);
+        removecart_img = (ImageView)findViewById(R.id.removecart);
+        quantitytxt = (TextView)findViewById(R.id.quantity);
 
         Hash_file_maps = new HashMap<String, String>();
 
@@ -56,9 +75,49 @@ public class SingleProductDetail extends AppCompatActivity implements BaseSlider
         sliderLayout.setDuration(3000);
         sliderLayout.addOnPageChangeListener(this);
 
+        addcart_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                mCartItemCount = mCartItemCount + 1;
+                quantitytxt.setText(""+mCartItemCount);
+               // Toast.makeText(SingleProductDetail.this, ""+mCartItemCount, Toast.LENGTH_SHORT).show();
+                setupBadge();
+            }
+        });
+
+        removecart_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                mCartItemCount = mCartItemCount - 1;
+              //  Toast.makeText(SingleProductDetail.this, ""+mCartItemCount, Toast.LENGTH_SHORT).show();
+                quantitytxt.setText(""+mCartItemCount);
+                setupBadge();
+            }
+        });
+
+        fav_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if(flag_fav==0){
+
+                    fav_img.setImageDrawable(ActivityCompat.getDrawable(view.getContext(),R.drawable.favfill));
+                    flag_fav = 1;
+                }
+                else
+                {
+                    fav_img.setImageDrawable(ActivityCompat.getDrawable(view.getContext(),R.drawable.heart));
+                    flag_fav = 0;
+                }
+
+
+
+            }
+        });
 
     }
-
 
 
 
@@ -87,6 +146,62 @@ public class SingleProductDetail extends AppCompatActivity implements BaseSlider
 
     @Override
     public void onPageScrollStateChanged(int state) {}
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.cart_product, menu);
+
+
+        final MenuItem menuItem = menu.findItem(R.id.action_cart);
+
+        View actionView = MenuItemCompat.getActionView(menuItem);
+        textCartItemCount = (TextView) actionView.findViewById(R.id.cart_badge);
+
+        setupBadge();
+
+        actionView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onOptionsItemSelected(menuItem);
+            }
+        });
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+            case R.id.cart:
+                //add the function to perform here
+                return(true);
+
+        }
+        return(super.onOptionsItemSelected(item));
+    }
+
+    private void setupBadge() {
+
+        if (textCartItemCount != null) {
+            if (mCartItemCount == 0)
+            {
+                if (textCartItemCount.getVisibility() != View.GONE)
+                {
+                    textCartItemCount.setVisibility(View.GONE);
+                }
+            }
+            else
+            {
+                textCartItemCount.setText(String.valueOf(Math.min(mCartItemCount, 99)));
+                if (textCartItemCount.getVisibility() != View.VISIBLE)
+                {
+                    textCartItemCount.setVisibility(View.VISIBLE);
+                }
+            }
+        }
+}
 
 }
 

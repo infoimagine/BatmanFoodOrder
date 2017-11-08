@@ -25,6 +25,7 @@
             android:name="com.zingbyte.batmanfoodorder.activity.SplashActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name"
+            android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,57 +36,68 @@
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.MainActivity"
             android:configChanges="orientation|screenSize"
-            android:label="Categories"
+            android:label=""
+            android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.WelcomeActivity"
             android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.SignupActivity"
             android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.SignInActivity"
             android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.CardEditActivity"
             android:configChanges="orientation|screenSize"
             android:label="Card Detail Edit"
+            android:launchMode="singleTask"
             android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.CardDetailActivity"
             android:configChanges="orientation|screenSize"
             android:label="Card Detail"
+            android:launchMode="singleTask"
             android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.OrderHistory"
             android:configChanges="orientation|screenSize"
             android:label="Order History"
+            android:launchMode="singleTask"
             android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.SingleProductDetail"
             android:configChanges="orientation|screenSize"
             android:label="Single Food Detail"
+            android:launchMode="singleTask"
             android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity" />
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.AddressDetail"
             android:configChanges="orientation|screenSize"
             android:label="Add Address Detail"
+            android:launchMode="singleTask"
             android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity" />
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.ProfileDetail"
             android:configChanges="orientation|screenSize"
             android:label="Profile Detail"
+            android:launchMode="singleTask"
             android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity" />
         <activity
             android:name="com.zingbyte.batmanfoodorder.activity.About"
             android:configChanges="orientation|screenSize"
             android:label="About Us"
+            android:launchMode="singleTask"
             android:parentActivityName="com.zingbyte.batmanfoodorder.activity.MainActivity" />
 
         <meta-data

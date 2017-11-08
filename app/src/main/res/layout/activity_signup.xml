@@ -65,6 +65,7 @@
                     android:layout_height="wrap_content">
 
                     <EditText
+                        android:inputType="text|textCapWords"
                         android:drawableRight="@drawable/dusername"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
@@ -89,7 +90,7 @@
                         android:id="@+id/input_mobile"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="textEmailAddress"
+                        android:inputType="number"
                         android:hint="mobile" />
                 </android.support.design.widget.TextInputLayout>
 
@@ -106,7 +107,7 @@
                         android:id="@+id/input_email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="textEmailAddress"
+                        android:inputType="textEmailAddress|textCapWords"
                         android:hint="email" />
 
                 </android.support.design.widget.TextInputLayout>

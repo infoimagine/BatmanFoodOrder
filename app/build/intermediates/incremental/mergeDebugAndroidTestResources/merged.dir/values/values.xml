@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="names">
+        <item>@string/smile_rating_terrible</item>
+        <item>@string/smile_rating_bad</item>
+        <item>@string/smile_rating_okay</item>
+        <item>@string/smile_rating_good</item>
+        <item>@string/smile_rating_great</item>
+    </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -501,6 +508,7 @@
     <declare-styleable name="ScrollingViewBehavior_Layout"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="SliderLayout"><attr format="enum" name="indicator_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr><attr format="boolean" name="auto_cycle"/><attr format="enum" name="pager_animation"><enum name="Default" value="0"/><enum name="Accordion" value="1"/><enum name="Background2Foreground" value="2"/><enum name="CubeIn" value="3"/><enum name="DepthPage" value="4"/><enum name="Fade" value="5"/><enum name="FlipHorizontal" value="6"/><enum name="FlipPage" value="7"/><enum name="Foreground2Background" value="8"/><enum name="RotateDown" value="9"/><enum name="RotateUp" value="10"/><enum name="Stack" value="11"/><enum name="Tablet" value="12"/><enum name="ZoomIn" value="13"/><enum name="ZoomOutSlide" value="14"/><enum name="ZoomOut" value="15"/></attr><attr format="integer" name="pager_animation_span"/></declare-styleable>
+    <declare-styleable name="SmileRating"><attr format="color" name="angryColor"/><attr format="color" name="normalColor"/><attr format="color" name="drawingColor"/><attr format="boolean" name="showLine"/><attr format="color" name="placeHolderSmileColor"/><attr format="color" name="placeHolderBackgroundColor"/><attr format="color" name="textSelectionColor"/><attr format="color" name="textNonSelectionColor"/><attr format="boolean" name="isIndicator"/></declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">
@@ -855,6 +863,11 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="previous">PREVIOUS</string>
     <string name="search_menu_title">Search</string>
+    <string name="smile_rating_bad">Bad</string>
+    <string name="smile_rating_good">Good</string>
+    <string name="smile_rating_great">Great</string>
+    <string name="smile_rating_okay">Okay</string>
+    <string name="smile_rating_terrible">Terrible</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="toast_message">Toast message</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

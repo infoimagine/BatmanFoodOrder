@@ -145,6 +145,19 @@ public class SignInActivity extends AppCompatActivity {
         GeometricProgressView progressView = (GeometricProgressView) dialog.findViewById(R.id.progressView);
         dialog.show();
         Toast.makeText(SignInActivity.this, "Processing !!!", Toast.LENGTH_SHORT).show();
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+
+                //onLoadingDataEnded();
+                Intent i = new Intent(SignInActivity.this, MainActivity.class);
+                startActivity(i);
+                //  overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
+
+            }
+        }, 300);
     }
 
     @Override

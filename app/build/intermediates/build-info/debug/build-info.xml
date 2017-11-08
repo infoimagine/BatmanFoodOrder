@@ -6,44 +6,104 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.0.0"
-    timestamp="1510052090589"
+    timestamp="1510145456440"
     token="-5670827347748913495"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="5102" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="612" />
     <task
         name="verifier"
-        duration="0" />
+        duration="256" />
+
+    <artifact
+        location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\outputs\apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1510032827519"
+        timestamp="1510144723947"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1510145456440"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -64,57 +124,5 @@
             location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1510048711844"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1510051840945"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vishe\AndroidStudioProjects\BatmanFoodOrder\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1510052090589"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

@@ -21,7 +21,7 @@ public class SplashActivity extends Activity {
             public void run() {
 
                 //onLoadingDataEnded();
-                Intent i = new Intent(SplashActivity.this, WelcomeActivity.class);
+                Intent i = new Intent(SplashActivity.this, WelcomeActivity .class);
                 startActivity(i);
               //  overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();

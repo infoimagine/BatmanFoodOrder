@@ -2,10 +2,13 @@ package com.zingbyte.batmanfoodorder.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -18,6 +21,15 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
+
+
+import com.daimajia.slider.library.Animations.DescriptionAnimation;
+import com.daimajia.slider.library.SliderLayout;
+import com.daimajia.slider.library.SliderTypes.BaseSliderView;
+import com.daimajia.slider.library.SliderTypes.TextSliderView;
+import com.daimajia.slider.library.Tricks.ViewPagerEx;
+import com.zingbyte.batmanfoodorder.R;
 
 import com.zingbyte.batmanfoodorder.R;
 import com.zingbyte.batmanfoodorder.fragment.FourFragment;
@@ -25,10 +37,14 @@ import com.zingbyte.batmanfoodorder.fragment.OneFragment;
 import com.zingbyte.batmanfoodorder.fragment.ThreeFragment;
 import com.zingbyte.batmanfoodorder.fragment.TwoFragment;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+import java.util.HashMap;
+
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,BaseSliderView.OnSliderClickListener, ViewPagerEx.OnPageChangeListener {
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
+    SliderLayout sliderLayout;
+    HashMap<String,String> Hash_file_maps ;
     public static int int_items = 4 ;
 
     @Override
@@ -38,6 +54,31 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        final CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appBarLayout);
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            boolean isShow = false;
+            int scrollRange = -1;
+
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                if (scrollRange == -1) {
+                    scrollRange = appBarLayout.getTotalScrollRange();
+                }
+                if (scrollRange + verticalOffset == 0) {
+                    collapsingToolbarLayout.setTitle("Categories");
+                    isShow = true;
+                } else if(isShow) {
+                    collapsingToolbarLayout.setTitle(" ");//carefull there should a space between double quote otherwise it wont work
+                    isShow = false;
+                }
+            }
+        });
+
+
      /*   FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,8 +87,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         .setAction("Action", null).show();
             }
         });*/
-
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -68,6 +107,34 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 tabLayout.setupWithViewPager(viewPager);
             }
         });
+
+        Hash_file_maps = new HashMap<String, String>();
+        sliderLayout = (SliderLayout)findViewById(R.id.slider);
+
+        Hash_file_maps.put("Pizza 1", "https://image.ibb.co/bLNtyG/image1.png");
+        Hash_file_maps.put("Pizza 2", "https://image.ibb.co/gbmxQw/image2.png");
+        Hash_file_maps.put("Pizza 3", "https://image.ibb.co/cHm8Xb/image3.png");
+        Hash_file_maps.put("Pizza 4", "https://image.ibb.co/hJT0dG/image4.png");
+        Hash_file_maps.put("Pizza 5", "https://image.ibb.co/cHm8Xb/image3.png");
+
+        for(String name : Hash_file_maps.keySet()){
+
+            TextSliderView textSliderView = new TextSliderView(this);
+            textSliderView
+                    .description(name)
+                    .image(Hash_file_maps.get(name))
+                    .setScaleType(BaseSliderView.ScaleType.Fit)
+                    .setOnSliderClickListener(this);
+            textSliderView.bundle(new Bundle());
+            textSliderView.getBundle().putString("extra",name);
+            sliderLayout.addSlider(textSliderView);
+        }
+
+        sliderLayout.setPresetTransformer(SliderLayout.Transformer.Accordion);
+        sliderLayout.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
+         sliderLayout.setCustomAnimation(new DescriptionAnimation());
+        sliderLayout.setDuration(5000);
+        sliderLayout.addOnPageChangeListener(this);
 
     }
 
@@ -215,6 +282,32 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             return null;
         }
     }
+
+    @Override
+    public void onStop() {
+
+        sliderLayout.stopAutoCycle();
+        super.onStop();
+    }
+
+    @Override
+    public void onSliderClick(BaseSliderView slider) {
+
+        Toast.makeText(this,slider.getBundle().get("extra") + "", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {}
+
+    @Override
+    public void onPageSelected(int position) {
+
+        Log.d("Slider Demo", "Page Changed: " + position);
+    }
+
+    @Override
+    public void onPageScrollStateChanged(int state) {}
+
 
 
 }

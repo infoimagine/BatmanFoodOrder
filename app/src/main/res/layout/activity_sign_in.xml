@@ -67,6 +67,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:inputType="textEmailAddress|textCapWords"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:drawablePadding="10dp"

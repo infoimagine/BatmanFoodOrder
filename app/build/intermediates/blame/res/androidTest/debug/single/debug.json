@@ -40,12 +40,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9cea949cbf849336a1365f82e8baab90\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_design_password_eye.xml.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9cea949cbf849336a1365f82e8baab90\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9cea949cbf849336a1365f82e8baab90\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_search_url_text.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color\\abc_search_url_text.xml"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_search_url_text.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -124,40 +124,40 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_fade_in.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_design_text_input_password_icon.xml.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9cea949cbf849336a1365f82e8baab90\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_fade_in.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\anim\\abc_fade_in.xml"
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg_low.xml.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\2f0fabec1bceafe6b15427cb9e72fc7c\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_design_bottom_navigation_item.xml.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9cea949cbf849336a1365f82e8baab90\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_back_card.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\CreditCardView-v1.0.4.aar\\ae995fab91abf1965581bb67c1820092\\res\\layout\\back_card.xml"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_toast_frame.9.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\Toasty-1.2.5.aar\\cc06db1a628a80163e30399c31551bcf\\res\\drawable-xhdpi-v4\\toast_frame.9.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_back_card.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\CreditCardView-v1.0.4.aar\\ae995fab91abf1965581bb67c1820092\\res\\layout\\back_card.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -188,12 +188,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_out_top.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\2f0fabec1bceafe6b15427cb9e72fc7c\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_out_top.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -228,12 +228,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9cea949cbf849336a1365f82e8baab90\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color\\abc_hint_foreground_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
@@ -340,12 +340,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_spinner.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_warning_white_48dp.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\Toasty-1.2.5.aar\\cc06db1a628a80163e30399c31551bcf\\res\\drawable-xhdpi-v4\\ic_warning_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_spinner.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color\\abc_tint_spinner.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -368,12 +368,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -412,12 +412,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9cea949cbf849336a1365f82e8baab90\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -604,12 +604,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_clear_white_48dp.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\Toasty-1.2.5.aar\\cc06db1a628a80163e30399c31551bcf\\res\\drawable-mdpi-v4\\ic_clear_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -724,12 +724,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9cea949cbf849336a1365f82e8baab90\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_info_outline_white_48dp.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\Toasty-1.2.5.aar\\cc06db1a628a80163e30399c31551bcf\\res\\drawable-xhdpi-v4\\ic_info_outline_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1312,12 +1312,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9cea949cbf849336a1365f82e8baab90\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_switch_track.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color\\abc_tint_switch_track.xml"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\layout-v26\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1456,16 +1456,16 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_ic_info_outline_white_48dp.png.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\Toasty-1.2.5.aar\\cc06db1a628a80163e30399c31551bcf\\res\\drawable-xxxhdpi-v4\\ic_info_outline_white_48dp.png"
+    },
+    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color-v23\\abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_ic_info_outline_white_48dp.png.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\Toasty-1.2.5.aar\\cc06db1a628a80163e30399c31551bcf\\res\\drawable-xxxhdpi-v4\\ic_info_outline_white_48dp.png"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -1680,12 +1680,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_info_outline_white_48dp.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\Toasty-1.2.5.aar\\cc06db1a628a80163e30399c31551bcf\\res\\drawable-mdpi-v4\\ic_info_outline_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -1744,12 +1744,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1808,12 +1808,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.0.aar\\eb86d2a3f9eed46878f8db4b5c793d0f\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_tint_default.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_ic_check_white_48dp.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\Toasty-1.2.5.aar\\cc06db1a628a80163e30399c31551bcf\\res\\drawable-xxhdpi-v4\\ic_check_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_tint_default.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\8a540eb63af05ac8295365036ba1f3b8\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_dialog_title_material.xml.flat",
@@ -1904,12 +1904,12 @@
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9cea949cbf849336a1365f82e8baab90\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_custom.xml.flat",
-        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.0.aar\\eb86d2a3f9eed46878f8db4b5c793d0f\\res\\layout\\notification_template_big_media_custom.xml"
-    },
-    {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_check_white_48dp.png.flat",
         "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\Toasty-1.2.5.aar\\cc06db1a628a80163e30399c31551bcf\\res\\drawable-xhdpi-v4\\ic_check_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\vishe\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.0.aar\\eb86d2a3f9eed46878f8db4b5c793d0f\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\vishe\\AndroidStudioProjects\\BatmanFoodOrder\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23_abc_tint_btn_checkable.xml.flat",
